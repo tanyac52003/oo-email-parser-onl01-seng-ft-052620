@@ -11,7 +11,7 @@ end
 
 def parse 
   puts split_email = emails.split.collect{|address| address.split(",")}
-  return_array = splitEmail.flatten.uniq 
+  return_array = split_email.flatten.uniq 
   return_array
 end 
 end 
